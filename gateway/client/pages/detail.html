@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Detail</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/survey-core/survey.min.css" />
+  <script src="https://unpkg.com/jquery@3.6.4/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/survey-jquery"></script>
+</head>
+
+<body>
+  <div id="header"></div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Todo Details</h2>
+        <div class="card">
+          <div class="card-body">
+            <p><strong>Title:</strong> <span id="todoTitle"></span></p>
+            <p><strong>Description:</strong> <span id="todoDescription"></span></p>
+            <p><strong>Assignees:</strong> <span id="todoAssignees"></span></p>
+            <p><strong>Tags:</strong> <span id="todoTags"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-12">
+        <h4>Update Todo</h4>
+        <div id="surveyTodoForm"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/detail.js"></script>
+</body>
+
+</html>
